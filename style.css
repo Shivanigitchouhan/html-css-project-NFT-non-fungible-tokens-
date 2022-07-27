@@ -1,0 +1,88 @@
+body{   
+    overflow-x: hidden;
+    background-color: #01162e;
+}
+
+.main-container{
+    color: white;
+    /* width: 20rem */
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.main{
+    border: 1.5rem solid #032247;
+    border-radius: 30px;
+    width: 25rem;
+    background-color: #032247;
+    margin: auto;
+}
+
+#equilibrium-image{
+    border-radius: 30px;
+    width: 22rem;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.equilibrium-text{
+    font-size: x-large;
+    width: 23rem;
+    font-weight: 400;
+    color: grey;
+}
+
+.description{
+    display: grid;
+    grid-template-columns: auto auto;
+}       
+
+#value{
+    font-size: large;
+    color: #00FFF8;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -22px;
+    margin-left: 20px;
+
+}
+
+.icon-clock{
+    margin-left: 100px;
+    margin-top: 4px;
+}
+
+.time{
+    font-size: 20px;
+    margin-top: -23px;
+    margin-left: 120px;
+    font-weight: bold;
+}
+
+.owner-description{
+    display: flex;
+}
+
+.avtar{
+    width: 4rem;
+    border: 1px solid white;
+    border-radius: 32px;
+}
+
+
+#created-by{
+    margin: 10px 0 0 15px;
+    font-size: x-large;
+    color: grey;
+    font-weight: 600;
+}
+
+#owner-name{
+    margin: 10px 0 0 -5px;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+
